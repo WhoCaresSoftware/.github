@@ -1,5 +1,17 @@
-# WhoCaresSoftware GitHub profile
+# WhoCaresSoftware .github
 
-Public content for the organization welcome page, which lives in [`profile/README.md`](profile/README.md).
+Public profile and default community health files for the WhoCaresSoftware organization.
 
-Organization settings live in the private `github-config` repository.
+| File | Purpose |
+| --- | --- |
+| `profile/README.md` | Public organization profile |
+| `profile/assets/` | Wordmark copied from `@whocaressoftware/brand` (`identity/wordmark/svg/website-wordmark-{light,dark}.svg`) |
+| `SECURITY.md` | Default security policy |
+| `pull_request_template.md` | Default pull request template |
+
+The defaults apply to every repository in the organization, private ones included,
+unless a repository has its own file. This repository is public: keep internal
+details out of it. The members-only profile lives in `.github-private`.
+
+Organization settings and repository metadata are managed by `github-config`.
+When the brand wordmark changes, copy the new SVGs into `profile/assets/`.
