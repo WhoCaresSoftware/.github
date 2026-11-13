@@ -13,5 +13,5 @@ The defaults apply to every repository in the organization, private ones include
 unless a repository has its own file. This repository is public: keep internal
 details out of it. The members-only profile lives in `.github-private`.
 
-Organization settings and repository metadata are managed by `github-config`.
+Organization settings and repository metadata are managed by `infra-github`.
 When the brand wordmark changes, copy the new SVGs into `profile/assets/`.
