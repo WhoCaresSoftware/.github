@@ -1,6 +1,10 @@
-# WhoCaresSoftware .github
+# .github
 
-Public profile and default community health files for the WhoCaresSoftware organization.
+The public profile and default community health files for the WhoCaresSoftware
+GitHub organization. The defaults apply to every repository in the organization
+unless a repository has its own file.
+
+## Usage
 
 | File | Purpose |
 | --- | --- |
@@ -9,9 +13,9 @@ Public profile and default community health files for the WhoCaresSoftware organ
 | `SECURITY.md` | Default security policy |
 | `pull_request_template.md` | Default pull request template |
 
-The defaults apply to every repository in the organization, private ones included,
-unless a repository has its own file. This repository is public: keep internal
-details out of it. The members-only profile lives in `.github-private`.
+This repository is public: keep internal details out of it.
 
-Organization settings and repository metadata are managed by `infra-github`.
-When the brand wordmark changes, copy the new SVGs into `profile/assets/`.
+## Learn more
+
+- [How this repository works](docs/overview.md)
+- Runbooks: [Update the profile wordmark](docs/runbooks/update-wordmark.md)
